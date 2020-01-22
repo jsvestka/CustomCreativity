@@ -15,11 +15,13 @@ h1 {
     text-align: center;
 }
 
+
 .main {
     display: flex;
     flex-flow: row wrap;
    justify-content: space-between;
 }
+
 
 .brush {
     background-color: mediumspringgreen;
@@ -83,12 +85,12 @@ img {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
+
     /*margin-left: 0;
     margin-right: 0;*/
 }
 
 a {
-    cursor: pointer;
     text-decoration: none;
     color: black;
     padding: auto;
@@ -98,8 +100,8 @@ a {
     display: inline;
     list-style: none;
     flex-basis: 10rem;
-    padding: 5px;
-    border: 2px solid black;
+    /*padding: 5px;*/
+    border: 1px solid rgb(124, 124, 124);;
     text-align: center;
     border-radius: 4px;
     margin: auto auto 15px auto;
@@ -114,3 +116,14 @@ ul {
     padding: 0; /*added due to ul defaulting to 40px padding on left*/
 }
 
+.button {
+    display: block;
+    padding: 5px;
+    color: rgb(124, 124, 124);;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
